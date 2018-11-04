@@ -15,6 +15,12 @@ public class Pembeli {
     //membuat konstruktor default
     public Pembeli() {
     }
+
+    //membuat konstruktor berparameter
+    public Pembeli(String nama, String alamat) {
+        this.nama = nama;
+        this.alamat = alamat;
+    }
     
     
 }
