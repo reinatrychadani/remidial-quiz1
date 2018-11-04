@@ -21,6 +21,23 @@ public class Pembeli {
         this.nama = nama;
         this.alamat = alamat;
     }
+
+    //membuat getter dan setter dari atribut yang telah diisikan
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
     
     
 }
