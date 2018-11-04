@@ -11,6 +11,10 @@
 public class Pembeli {
     private String nama;
     private String alamat;
+
+    //membuat konstruktor default
+    public Pembeli() {
+    }
     
     
 }
