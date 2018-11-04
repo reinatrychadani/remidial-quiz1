@@ -12,6 +12,8 @@ public class TiketKonser {
     private TiketVIP vip;
     private TiketReguler reguler;
     private Pembeli pembeli;
+    private int harga;
+    private int jumlah;
 
     //membuat konstruktor default
     public TiketKonser() {
@@ -24,5 +26,7 @@ public class TiketKonser {
         this.pembeli = pembeli;
     }
     
-    
+    public void infoTiketKonser(){
+        
+    }
 }
