@@ -17,6 +17,21 @@ public class TiketReguler {
         this.harga = harga;
         this.tribun = tribun;
     }
-    
-    
+
+    //membuat getter dan setter dari atribut yang telah diisikan
+    public int getHarga() {
+        return harga;
+    }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+
+    public String getTribun() {
+        return tribun;
+    }
+
+    public void setTribun(String tribun) {
+        this.tribun = tribun;
+    }
 }
