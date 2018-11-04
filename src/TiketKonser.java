@@ -16,6 +16,13 @@ public class TiketKonser {
     //membuat konstruktor default
     public TiketKonser() {
     }
+
+    //membuat konstruktor berparameter
+    public TiketKonser(TiketVIP vip, TiketReguler reguler, Pembeli pembeli) {
+        this.vip = vip;
+        this.reguler = reguler;
+        this.pembeli = pembeli;
+    }
     
     
 }
