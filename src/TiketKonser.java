@@ -27,6 +27,47 @@ public class TiketKonser {
         this.harga = harga;
         this.jumlah = jumlah;
     }
+
+    //membuat getter dan setter dari atribut yang telah diisikan
+    public TiketVIP getVip() {
+        return vip;
+    }
+
+    public void setVip(TiketVIP vip) {
+        this.vip = vip;
+    }
+
+    public TiketReguler getReguler() {
+        return reguler;
+    }
+
+    public void setReguler(TiketReguler reguler) {
+        this.reguler = reguler;
+    }
+
+    public Pembeli getPembeli() {
+        return pembeli;
+    }
+
+    public void setPembeli(Pembeli pembeli) {
+        this.pembeli = pembeli;
+    }
+
+    public int getHarga() {
+        return harga;
+    }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+
+    public int getJumlah() {
+        return jumlah;
+    }
+
+    public void setJumlah(int jumlah) {
+        this.jumlah = jumlah;
+    }
     
     //menghitung total tiket yang dibeli
     public int totalTiket(){
@@ -34,6 +75,6 @@ public class TiketKonser {
     }
     
     public void infoTiketKonser(){
-        
+        System.out.println("Harga Tiket VIP: "+TiketVIP.getHarga());
     }
 }
