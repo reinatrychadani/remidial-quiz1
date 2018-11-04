@@ -39,5 +39,9 @@ public class Pembeli {
         this.alamat = alamat;
     }
     
-    
+    //menampilkan info dari pembeli tiket
+    public void infoPembeli(){
+        System.out.println("Nama Pembeli: "+nama);
+        System.out.println("Alamat Pembeli: "+alamat);
+    }
 }
