@@ -11,6 +11,10 @@
 public class TiketVIP {
     private int harga;
     private String tribun;
+
+    //membuat konstruktor default
+    public TiketVIP() {
+    }
     
     //membuat konstruktor tiket vip berparameter
     public TiketVIP(int harga, String tribun) {
