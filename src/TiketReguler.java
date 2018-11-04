@@ -11,6 +11,12 @@
 public class TiketReguler {
     private int harga;
     private String tribun;
+
+    //membuat konstruktor berparameter 
+    public TiketReguler(int harga, String tribun) {
+        this.harga = harga;
+        this.tribun = tribun;
+    }
     
     
 }
