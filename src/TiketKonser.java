@@ -71,7 +71,7 @@ public class TiketKonser {
     
     //menghitung total tiket yang dibeli
     public int totalTiket(){
-        return jumlah * harga;
+        return jumlah*harga;
     }
     
     //menampilkan info harga dan tribun
