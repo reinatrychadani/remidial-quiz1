@@ -76,9 +76,9 @@ public class TiketKonser {
     
     //menampilkan info harga dan tribun
     public void infoTiketKonser(){
-        System.out.println("Harga Tiket VIP: "+vip.getHarga());
         System.out.println(vip.getTribun());
-        System.out.println("Harga Tiket Reguler: "+reguler.getHarga());
+        System.out.println("Harga Tiket: "+vip.getHarga());
         System.out.println(reguler.getTribun());
+        System.out.println("Harga Tiket: "+reguler.getHarga());
     }
 }
