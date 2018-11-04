@@ -28,6 +28,11 @@ public class TiketKonser {
         this.jumlah = jumlah;
     }
     
+    //menghitung total tiket yang dibeli
+    public int totalTiket(){
+        return jumlah * harga;
+    }
+    
     public void infoTiketKonser(){
         
     }
