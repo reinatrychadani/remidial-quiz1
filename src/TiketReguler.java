@@ -33,10 +33,5 @@ public class TiketReguler {
 
     public void setTribun(String tribun) {
         this.tribun = tribun;
-    }
-    
-    //menampilkan info harga TiketReguler
-    public void infoReguler(){
-        System.out.println("Harga Tiket Reguler: "+getHarga());
-    }
+    } 
 }
