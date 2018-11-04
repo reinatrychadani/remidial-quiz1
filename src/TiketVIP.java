@@ -34,4 +34,9 @@ public class TiketVIP {
     public void setTribun(String tribun) {
         this.tribun = tribun;
     }
+    
+    //menampilkan info harga TiketVIP
+    public void infoVIP(){
+        System.out.println("Harga Tiket VIP: "+getHarga());
+    }
 }
