@@ -29,6 +29,8 @@ public class Main {
         k.setJumlah(3);
         k.setPembeli(b);
         
+        System.out.println("--------Pembelian Tiket Konser--------");
+        System.out.println();
         System.out.println("----Daftar Tiket----");
         k.infoTiketKonser();
         System.out.println();
