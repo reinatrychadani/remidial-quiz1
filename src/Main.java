@@ -29,10 +29,10 @@ public class Main {
         k.setJumlah(3);
         k.setPembeli(b);
         
-        System.out.println("\tDaftar Tiket");
+        System.out.println("----Daftar Tiket----");
         k.infoTiketKonser();
         System.out.println();
-        System.out.println("\tData Pembeli");
+        System.out.println("----Data Pembeli----");
         b.infoPembeli();
         System.out.println();
         System.out.println("Total Harga Tiket: "+k.totalTiket());
