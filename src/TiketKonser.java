@@ -12,7 +12,10 @@ public class TiketKonser {
     private TiketVIP vip;
     private TiketReguler reguler;
     private Pembeli pembeli;
-    
+
+    //membuat konstruktor default
+    public TiketKonser() {
+    }
     
     
 }
