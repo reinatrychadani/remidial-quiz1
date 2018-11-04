@@ -20,10 +20,12 @@ public class TiketKonser {
     }
 
     //membuat konstruktor berparameter
-    public TiketKonser(TiketVIP vip, TiketReguler reguler, Pembeli pembeli) {
+    public TiketKonser(TiketVIP vip, TiketReguler reguler, Pembeli pembeli, int harga, int jumlah) {
         this.vip = vip;
         this.reguler = reguler;
         this.pembeli = pembeli;
+        this.harga = harga;
+        this.jumlah = jumlah;
     }
     
     public void infoTiketKonser(){
